@@ -71,9 +71,15 @@ ul { margin: 0; padding: 0; list-style: none; }
 /* ---------- Header ---------- */
 .site-header {
   position: fixed; inset: 0 0 auto; z-index: 50;
-  transition: background-color .3s, border-color .3s; border-bottom: 1px solid transparent;
+  transition: border-color .3s; border-bottom: 1px solid transparent;
 }
-.site-header.is-scrolled { background: rgba(18, 17, 58, .85); backdrop-filter: blur(12px); border-color: var(--line-dark); }
+.site-header::before {
+  content: ""; position: absolute; inset: 0; z-index: -1;
+  background: rgba(18, 17, 58, .85); backdrop-filter: blur(12px);
+  opacity: 0; transition: opacity .3s;
+}
+.site-header.is-scrolled { border-color: var(--line-dark); }
+.site-header.is-scrolled::before { opacity: 1; }
 .header-inner { height: 80px; display: flex; align-items: center; justify-content: space-between; }
 .logo { display: inline-flex; align-items: center; gap: 12px; }
 .logo-mark { width: 34px; height: 34px; color: var(--text); }
