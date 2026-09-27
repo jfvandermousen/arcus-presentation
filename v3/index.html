@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arcus Partners — Piste 3 · Immersive</title>
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="arch" viewBox="0 0 40 40">
+      <path fill="currentColor" d="M4 37 C4 15 11 3 20 3 C29 3 36 15 36 37 H28.5 C28.5 20 25 11 20 11 C15 11 11.5 20 11.5 37 Z"/>
+      <rect fill="currentColor" x="14" y="24" width="12" height="4.2"/>
+    </symbol>
+  </svg>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="logo" aria-label="Arcus Partners — accueil">
+        <svg class="logo-mark" aria-hidden="true"><use href="#arch"/></svg>
+        <span class="logo-text"><b>ARCUS</b><span>PARTNERS</span></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Ouvrir le menu"><i></i><i></i></button>
+      <nav class="nav" id="nav" aria-label="Navigation principale">
+        <a href="#expertises">Expertises</a>
+        <a href="#modele">Notre modèle</a>
+        <a href="#valeurs">Valeurs</a>
+        <a href="#equipe">Équipe</a>
+        <a href="#contact" class="btn btn-outline">Nous contacter</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <section class="hero">
+      <svg class="hero-arch" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMax meet" aria-hidden="true">
+        <path d="M100 700 C100 250 330 40 600 40 C870 40 1100 250 1100 700" />
+        <path d="M260 700 C260 330 420 170 600 170 C780 170 940 330 940 700" />
+      </svg>
+      <div class="container hero-inner">
+        <p class="eyebrow">Cabinet de conseil · Bruxelles</p>
+        <h1 class="hero-title">Construisons ensemble<br><span>votre succès.</span></h1>
+        <p class="hero-lead">Affaires publiques, relations gouvernementales et communication corporate. Une expertise exclusivement senior, appuyée par la technologie.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-sage">Prendre rendez-vous</a>
+          <a href="#modele" class="btn btn-ghost">Notre modèle</a>
+        </div>
+      </div>
+      <a href="#chiffres" class="scroll-hint" aria-label="Défiler vers la suite"><span></span></a>
+    </section>
+
+    <section class="stats" id="chiffres" aria-label="Chiffres clés">
+      <div class="container stats-grid">
+        <div class="stat"><span class="stat-value"><span data-count="25">25</span> ans</span><span class="stat-label">d’expérience dans le secteur</span></div>
+        <div class="stat"><span class="stat-value" data-count="3">3</span><span class="stat-label">associés fondateurs</span></div>
+        <div class="stat"><span class="stat-value"><span data-count="100">100</span> %</span><span class="stat-label">expertise senior</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="expertises">
+      <div class="container">
+        <p class="eyebrow">Expertises</p>
+        <h2 class="h2">Trois métiers, une même exigence.</h2>
+
+        <div class="tabs">
+          <div class="tab-list" role="tablist" aria-label="Nos expertises">
+            <button class="tab" role="tab" id="t1" aria-controls="p1" aria-selected="true">Affaires publiques</button>
+            <button class="tab" role="tab" id="t2" aria-controls="p2" aria-selected="false" tabindex="-1">Relations gouvernementales</button>
+            <button class="tab" role="tab" id="t3" aria-controls="p3" aria-selected="false" tabindex="-1">Communication corporate</button>
+          </div>
+          <div class="tab-panel" role="tabpanel" id="p1" aria-labelledby="t1">
+            <div class="panel-text">
+              <span class="panel-num">01</span>
+              <h3>Affaires publiques</h3>
+              <p>[Description à rédiger — veille, stratégie d’influence, positionnement dans le débat public.]</p>
+              <a href="#" class="link">En savoir plus →</a>
+            </div>
+            <div class="panel-media placeholder"><span>[VISUEL]</span></div>
+          </div>
+          <div class="tab-panel" role="tabpanel" id="p2" aria-labelledby="t2" hidden>
+            <div class="panel-text">
+              <span class="panel-num">02</span>
+              <h3>Relations gouvernementales &amp; institutionnelles</h3>
+              <p>[Description à rédiger — dialogue avec les institutions belges et européennes.]</p>
+              <a href="#" class="link">En savoir plus →</a>
+            </div>
+            <div class="panel-media placeholder"><span>[VISUEL]</span></div>
+          </div>
+          <div class="tab-panel" role="tabpanel" id="p3" aria-labelledby="t3" hidden>
+            <div class="panel-text">
+              <span class="panel-num">03</span>
+              <h3>Communication corporate</h3>
+              <p>[Description à rédiger — réputation, messages clés, communication de crise.]</p>
+              <a href="#" class="link">En savoir plus →</a>
+            </div>
+            <div class="panel-media placeholder"><span>[VISUEL]</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--light" id="modele">
+      <div class="container model">
+        <div class="model-sticky">
+          <p class="eyebrow">Notre modèle</p>
+          <h2 class="h2">Un cabinet pensé autrement.</h2>
+          <p class="model-intro">Arcus Partners est né d’un constat : des honoraires élevés facturés pour des prestations souvent assurées par des juniors, des équipes épuisées, une croissance au détriment de la qualité. Nous avons fait le choix inverse.</p>
+        </div>
+        <div class="model-cards">
+          <article class="mcard reveal"><svg class="mcard-icon" aria-hidden="true"><use href="#arch"/></svg><h3>Expertise 100 % senior</h3><p>Vous travaillez directement avec les associés, du premier échange à la livraison.</p></article>
+          <article class="mcard reveal"><svg class="mcard-icon" aria-hidden="true"><use href="#arch"/></svg><h3>Un modèle durable</h3><p>Pas de facturation par des juniors, pas d’équipes épuisées : la qualité avant le volume.</p></article>
+          <article class="mcard reveal"><svg class="mcard-icon" aria-hidden="true"><use href="#arch"/></svg><h3>Le levier technologique</h3><p>L’IA et les outils numériques au service de la performance, pas en remplacement du jugement.</p></article>
+          <article class="mcard mcard--mission reveal"><p class="eyebrow">Mission</p><p class="mission">Prouver qu’un cabinet bâti sur la franchise, la pérennité et le levier technologique surpasse le modèle qu’il vient remplacer.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="valeurs">
+      <div class="container">
+        <p class="eyebrow">Nos valeurs</p>
+        <h2 class="h2">Sept engagements.</h2>
+        <ul class="values">
+          <li><span>01</span>Franchise</li>
+          <li><span>02</span>Loyauté</li>
+          <li><span>03</span>Pérennité</li>
+          <li><span>04</span>Discernement</li>
+          <li><span>05</span>Retenue</li>
+          <li><span>06</span>Générosité</li>
+          <li><span>07</span>Savoir-faire</li>
+          <li class="values-tagline">Permanence is a promise we keep.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section--deep" id="equipe">
+      <div class="container">
+        <p class="eyebrow">Les associés</p>
+        <h2 class="h2">Trois fondateurs, 25 ans de terrain.</h2>
+        <div class="team">
+          <figure class="member reveal"><div class="member-photo placeholder"><span>[PORTRAIT]</span></div><figcaption><strong>[Nom associé·e]</strong><span>[Fonction / spécialité]</span></figcaption></figure>
+          <figure class="member reveal"><div class="member-photo placeholder"><span>[PORTRAIT]</span></div><figcaption><strong>[Nom associé·e]</strong><span>[Fonction / spécialité]</span></figcaption></figure>
+          <figure class="member reveal"><div class="member-photo placeholder"><span>[PORTRAIT]</span></div><figcaption><strong>[Nom associé·e]</strong><span>[Fonction / spécialité]</span></figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-arch">
+          <h2 class="contact-title">Parlons de vos enjeux.</h2>
+          <p>Un premier échange confidentiel, directement avec un associé.</p>
+          <a href="mailto:contact@example.com" class="btn btn-light">Prendre rendez-vous</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a href="#top" class="logo" aria-label="Retour en haut">
+        <svg class="logo-mark" aria-hidden="true"><use href="#arch"/></svg>
+        <span class="logo-text"><b>ARCUS</b><span>PARTNERS</span></span>
+      </a>
+      <address>[ADRESSE] · 1000 Bruxelles<br>[EMAIL] · [TÉLÉPHONE]</address>
+      <ul class="footer-links"><li><a href="#">LinkedIn</a></li><li><a href="#">Mentions légales</a></li><li><a href="#">Confidentialité</a></li></ul>
+    </div>
+    <p class="container footer-bottom">© <span id="year">2026</span> Arcus Partners</p>
+  </footer>
+
+  <a href="../" class="version-badge">← Toutes les pistes <span>· Piste 3 / 3</span></a>
+</body>
+</html>
