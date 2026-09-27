@@ -1,4 +1,4 @@
-// Arcus Partners — Piste 2 · Éditoriale
+// Arcus Partners - Piste 2 · Éditoriale
 // Menu plein écran accessible, apparition au scroll, année.
 
 document.documentElement.classList.add('js');

@@ -1,4 +1,4 @@
-// Arcus Partners — Piste 3 · Immersive
+// Arcus Partners - Piste 3 · Immersive
 // Header au scroll, menu mobile, onglets accessibles, compteurs, apparition, année.
 
 document.documentElement.classList.add('js');

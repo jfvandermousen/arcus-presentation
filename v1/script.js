@@ -1,4 +1,4 @@
-// Arcus Partners — preview statique
+// Arcus Partners - preview statique
 // 1. Menu mobile accessible  2. Apparition au scroll  3. Année du footer
 
 document.documentElement.classList.add('js');

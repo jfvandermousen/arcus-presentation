@@ -57,7 +57,7 @@ a { color: inherit; text-decoration: none; }
 .notes h2 { font-size: 18px; font-weight: 600; margin-bottom: 12px; }
 .notes li { position: relative; padding-left: 20px; color: #3E4750; }
 .notes li + li { margin-top: 6px; }
-.notes li::before { content: "—"; position: absolute; left: 0; color: var(--sage); }
+.notes li::before { content: "·"; position: absolute; left: 0; color: var(--sage); }
 
 .bottom { padding-block: 56px 40px; font-size: 14px; color: var(--muted); }
 

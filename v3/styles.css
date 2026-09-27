@@ -1,5 +1,5 @@
 /* =========================================================
-   Arcus Partners — Piste 3 · Immersive
+   Arcus Partners - Piste 3 · Immersive
    Inspiration Apple : fond sombre indigo, l'arche comme motif, sauge en accent
    Palette des concepts 5/6 de la charte
    ========================================================= */
@@ -156,7 +156,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .panel-text p { color: var(--text-muted); max-width: 440px; }
 .panel-media { border-radius: 20px; min-height: 280px; }
 
-/* Modèle — colonne collante */
+/* Modèle - colonne collante */
 .model { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 64px; align-items: start; }
 .model-sticky { position: sticky; top: 120px; }
 .model-intro { color: var(--ink-muted); max-width: 460px; }
@@ -189,7 +189,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .member strong { font-size: 21px; font-weight: 600; }
 .member figcaption span { color: var(--text-muted); font-size: 15px; }
 
-/* Contact — l'arche */
+/* Contact - l'arche */
 .contact { padding-block: var(--section-y) 0; }
 .contact-arch {
   background: var(--sage-deep); color: #fff; text-align: center;

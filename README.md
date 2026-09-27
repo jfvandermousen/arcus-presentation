@@ -1,4 +1,4 @@
-# Arcus Partners — Pistes de design
+# Arcus Partners · Pistes de design
 
 Présentation client : 3 maquettes statiques (HTML / CSS / JS, sans dépendance).
 
@@ -23,7 +23,7 @@ python3 -m http.server 8000
 ```bash
 git init -b main
 git add .
-git commit -m "Maquettes Arcus Partners — 3 pistes"
+git commit -m "Maquettes Arcus Partners - 3 pistes"
 gh repo create arcus-maquettes --public --source=. --push
 gh api -X POST repos/{owner}/arcus-maquettes/pages -f "source[branch]=main" -f "source[path]=/"
 ```

@@ -1,5 +1,5 @@
 /* =========================================================
-   Arcus Partners — Piste 2 · Éditoriale
+   Arcus Partners - Piste 2 · Éditoriale
    Inspiration Brunswick : papier chaud, serif de titrage, beaucoup d'air
    ========================================================= */
 
@@ -146,7 +146,7 @@ body.menu-open { overflow: hidden; }
 .trio-item h3 { font-size: 19px; font-weight: 600; }
 .trio-item p { color: var(--charcoal); font-size: 16px; }
 
-/* Valeurs — bandeau défilant */
+/* Valeurs - bandeau défilant */
 .values-band { padding-block: clamp(56px, 7vw, 96px); border-block: 1px solid var(--line); overflow: hidden; }
 .values-band .eyebrow { margin-bottom: 32px; }
 .marquee { overflow: hidden; }
