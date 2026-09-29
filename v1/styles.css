@@ -10,13 +10,13 @@
   --sage: #76846F;
   --sage-light: #B2B8AE;
   --charcoal: #3E4750;
-  --ink: #13223A;
-  --grey: #5B6268;
-  --line: #D6D8D3;
-  --off-white: #F4F4F2;
+  --ink: #323932;
+  --grey: #5E6660;
+  --line: #D4D0C6;
+  --off-white: #F5F3EE;
   --white: #FFFFFF;
-  --placeholder: #D9DBD8;
-  --on-navy: #CFCFCF;
+  --placeholder: #D8D5CC;
+  --on-navy: #C8CCCF;
 
   /* Typo */
   --font: "Arimo", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -114,7 +114,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 }
 .placeholder-label {
   font-size: 13px; letter-spacing: .06em;
-  color: var(--white); background: rgba(19, 34, 58, .55);
+  color: var(--white); background: rgba(50, 57, 50, .55);
   padding: 6px 10px;
 }
 
@@ -123,7 +123,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .site-header {
   position: sticky; top: 0; z-index: 50;
   background: var(--white);
-  border-bottom: 1px solid #E3E4E0;
+  border-bottom: 1px solid #ECE9E1;
 }
 .header-inner {
   height: 88px;
@@ -138,8 +138,8 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 
 .nav-list { display: flex; align-items: center; gap: 36px; font-size: 15px; }
 .nav-list a:not(.btn) { color: var(--ink); }
-.nav-list a:not(.btn):hover { color: var(--navy); }
-.nav-lang { font-size: 13px; letter-spacing: .1em; color: #8A8F94; }
+.nav-list a:not(.btn):hover { color: var(--sage); }
+.nav-lang { font-size: 13px; letter-spacing: .1em; color: var(--grey); }
 .nav-lang a[aria-current] { font-weight: 600; }
 
 .nav-toggle {
