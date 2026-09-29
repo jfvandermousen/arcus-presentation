@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arcus Partners · Contact</title>
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Arcus Partners, accueil">
+        <svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M10 33 L20 7 L30 33" stroke-width="2.6"/><path d="M6 26 Q20 14 34 24" stroke-width="1.6"/><path d="M9 37 H31" stroke-width="2"/></g></svg>
+        <span class="logo-text"><b>ARCUS</b>PARTNERS</span>
+      </a>
+      <div class="header-right">
+        <a href="contact.html" class="header-contact" aria-current="page">Contact</a>
+        <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">
+          <span class="menu-btn-label">Menu</span>
+          <span class="menu-btn-icon" aria-hidden="true"><i></i><i></i></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="menu" id="menu" hidden>
+    <nav class="container menu-inner" aria-label="Navigation principale">
+      <ol class="menu-list">
+        <li><a href="index.html#expertises"><span>01</span>Expertises</a></li>
+        <li><a href="index.html#modele"><span>02</span>Notre modèle</a></li>
+        <li><a href="index.html#valeurs"><span>03</span>Valeurs</a></li>
+        <li><a href="index.html#equipe"><span>04</span>Les associés</a></li>
+        <li><a href="contact.html"><span>05</span>Contact</a></li>
+      </ol>
+      <p class="menu-lang"><a href="#" aria-current="true">Français</a> / <a href="#">English</a></p>
+    </nav>
+  </div>
+
+  <main id="contenu">
+    <section class="hero container">
+      <p class="eyebrow">Contact</p>
+      <h1 class="hero-title">Parlons de <em>vos enjeux.</em></h1>
+      <div class="hero-foot">
+        <p class="hero-lead">Un premier échange confidentiel, directement avec un associé. Remplissez le formulaire ci-dessous, nous revenons vers vous sous 48 h.</p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="contact-grid">
+        <form class="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Nom complet</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="company">Société <span>(optionnel)</span></label>
+            <input type="text" id="company" name="company" autocomplete="organization">
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn">Envoyer</button>
+          <p class="form-note" role="status" hidden>Merci, votre message a bien été noté (formulaire non connecté sur cette maquette).</p>
+        </form>
+
+        <div class="contact-info">
+          <h2 class="contact-info-title">Nous trouver</h2>
+          <address>[ADRESSE] · 1000 Bruxelles<br>[TÉLÉPHONE]</address>
+          <a href="mailto:contact@example.com" class="contact-mail">contact@example.com</a>
+          <div class="map-frame">
+            <iframe src="https://www.google.com/maps?q=Bruxelles&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Localisation (provisoire)"></iframe>
+          </div>
+          <p class="placeholder-label--static">[Carte provisoire : à positionner sur l’adresse définitive]</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="logo-text logo-text--sm"><b>ARCUS</b>PARTNERS</span>
+      <ul class="footer-links"><li><a href="#">LinkedIn</a></li><li><a href="#">Mentions légales</a></li><li><a href="#">Confidentialité</a></li></ul>
+      <span>© <span id="year">2026</span></span>
+    </div>
+  </footer>
+
+  <a href="../" class="version-badge">← Toutes les pistes <span>· Piste 4 / 4</span></a>
+</body>
+</html>

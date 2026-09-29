@@ -1,5 +1,5 @@
 // Arcus Partners - preview statique
-// 1. Menu mobile accessible  2. Apparition au scroll  3. Année du footer
+// 1. Menu mobile accessible  2. Apparition au scroll  3. Année du footer  4. Formulaire de contact
 
 document.documentElement.classList.add('js');
 
@@ -56,4 +56,15 @@ document.addEventListener('DOMContentLoaded', () => {
   /* ---------- 3. Année ---------- */
   const year = document.getElementById('year');
   if (year) year.textContent = new Date().getFullYear();
+
+  /* ---------- 4. Formulaire de contact (maquette, non connecté) ---------- */
+  const form = document.querySelector('.contact-form');
+  if (form) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const note = form.querySelector('.form-note');
+      if (note) note.hidden = false;
+      form.reset();
+    });
+  }
 });

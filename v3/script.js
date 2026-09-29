@@ -83,4 +83,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const y = document.getElementById('year');
   if (y) y.textContent = new Date().getFullYear();
+
+  /* Formulaire de contact (maquette, non connecté) */
+  const form = document.querySelector('.contact-form');
+  if (form) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const note = form.querySelector('.form-note');
+      if (note) note.hidden = false;
+      form.reset();
+    });
+  }
 });

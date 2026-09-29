@@ -7,9 +7,9 @@ index.html      → page d'accueil avec les 4 tuiles
 hub.css
 thumbs/         → aperçus des tuiles
 v1/             → Piste 1 · Institutionnelle
-v2/             → Piste 2 · Éditoriale
+v2/             → Piste 2 · Éditoriale (Arimo, sans le serif de titrage)
 v3/             → Piste 3 · Immersive
-v4/             → Piste 4 · Éditoriale (Arimo, sans le serif de titrage)
+v4/             → Piste 4 · Éditoriale · Variante (serif Newsreader)
 ```
 
 ## Voir en local
