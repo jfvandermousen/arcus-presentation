@@ -53,11 +53,12 @@ em { font-style: italic; color: var(--sage); }
 /* ---------- Header ---------- */
 .site-header { position: sticky; top: 0; z-index: 50; background: rgba(245,243,238,.92); backdrop-filter: blur(8px); }
 .header-inner { height: 84px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); }
-.logo { display: inline-flex; align-items: center; gap: 12px; color: var(--ink); }
-.logo-mark { width: 32px; height: 32px; }
-.logo-text { font-size: 15px; letter-spacing: .28em; font-weight: 400; }
-.logo-text b { font-weight: 600; }
-.logo-text--sm { font-size: 13px; }
+.logo { display: inline-flex; align-items: center; gap: .3em; color: var(--ink); font-size: 38px; }
+.logo-mark { width: .775em; height: 1em; flex: none; }
+.logo-text { display: flex; flex-direction: column; gap: .1em; line-height: .76; letter-spacing: 0; }
+.logo-text b { font-size: .66em; font-weight: 700; }
+.logo-text span { font-size: .56em; font-weight: 400; }
+.logo--sm { font-size: 30px; }
 .header-right { display: flex; align-items: center; gap: 28px; }
 .header-contact { font-size: 15px; border-bottom: 1px solid currentColor; }
 .menu-btn {
@@ -214,7 +215,7 @@ body.menu-open { overflow: hidden; }
 /* Footer */
 .site-footer { background: var(--ink); color: #C8CCCF; font-size: 14px; }
 .footer-inner { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding-block: 32px; flex-wrap: wrap; }
-.site-footer .logo-text { color: #fff; }
+.site-footer .logo { color: #fff; }
 .footer-links { display: flex; gap: 32px; flex-wrap: wrap; }
 .footer-links a:hover { color: #fff; }
 
@@ -234,8 +235,7 @@ body.menu-open { overflow: hidden; }
 @media (max-width: 900px) {
   .header-inner { height: 68px; }
   .menu { inset: 68px 0 0; }
-  .logo-text { font-size: 12px; letter-spacing: .22em; }
-  .logo-mark { width: 26px; height: 26px; }
+  .logo { font-size: 32px; }
   .header-contact { display: none; }
   .section-grid { grid-template-columns: 1fr; gap: 16px; }
   .section-grid > .eyebrow { padding-top: 0; }

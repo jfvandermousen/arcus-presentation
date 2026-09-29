@@ -81,11 +81,11 @@ ul { margin: 0; padding: 0; list-style: none; }
 .site-header.is-scrolled { border-color: var(--line-dark); }
 .site-header.is-scrolled::before { opacity: 1; }
 .header-inner { height: 80px; display: flex; align-items: center; justify-content: space-between; }
-.logo { display: inline-flex; align-items: center; gap: 12px; }
-.logo-mark { width: 34px; height: 34px; color: var(--text); }
-.logo-text { display: flex; flex-direction: column; line-height: 1; }
-.logo-text b { font-size: 17px; font-weight: 700; letter-spacing: .04em; }
-.logo-text span { font-size: 13px; font-weight: 400; letter-spacing: .08em; margin-top: 3px; }
+.logo { display: inline-flex; align-items: center; gap: .3em; font-size: 38px; color: var(--text); }
+.logo-mark { width: .775em; height: 1em; flex: none; }
+.logo-text { display: flex; flex-direction: column; gap: .1em; line-height: .76; letter-spacing: 0; }
+.logo-text b { font-size: .66em; font-weight: 700; }
+.logo-text span { font-size: .56em; font-weight: 400; }
 .nav { display: flex; align-items: center; gap: 36px; font-size: 15px; }
 .nav a:not(.btn) { color: var(--text-muted); transition: color .2s; }
 .nav a:not(.btn):hover { color: var(--text); }

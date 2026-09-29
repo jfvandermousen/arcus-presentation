@@ -130,9 +130,11 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   display: flex; align-items: center; justify-content: space-between;
 }
 
-.brand { display: inline-flex; align-items: center; gap: 14px; color: var(--navy); }
-.brand-mark { width: 36px; height: 36px; }
-.brand-name { font-size: 16px; font-weight: 500; letter-spacing: .22em; }
+.brand { display: inline-flex; align-items: center; gap: .3em; color: var(--navy); font-size: 40px; }
+.brand-mark { width: .775em; height: 1em; flex: none; }
+.brand-name { display: flex; flex-direction: column; gap: .1em; line-height: .76; letter-spacing: 0; }
+.brand-name b { font-size: .66em; font-weight: 700; }
+.brand-name span { font-size: .56em; font-weight: 400; }
 .brand--light { color: var(--white); }
 .brand--light:hover { color: var(--white); }
 
@@ -288,8 +290,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .site-footer { background: var(--navy-dark); color: var(--on-navy); font-size: 15px; }
 .footer-inner { display: flex; justify-content: space-between; align-items: flex-start; gap: 32px; padding-block: 56px 32px; }
 .footer-brand { display: flex; flex-direction: column; gap: 16px; }
-.footer-brand .brand-mark { width: 28px; height: 28px; }
-.footer-brand .brand-name { font-size: 14px; }
+.footer-brand .brand { font-size: 36px; }
 address { font-style: normal; line-height: 1.8; }
 .footer-links { display: flex; gap: 40px; }
 .footer-links a { color: var(--on-navy); }
@@ -317,8 +318,7 @@ address { font-style: normal; line-height: 1.8; }
 
 @media (max-width: 900px) {
   .header-inner { height: 72px; }
-  .brand-mark { width: 28px; height: 28px; }
-  .brand-name { font-size: 14px; letter-spacing: .2em; }
+  .brand { font-size: 32px; }
 
   .nav-toggle { display: flex; }
   .nav {
