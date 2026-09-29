@@ -247,7 +247,6 @@ address { font-style: normal; line-height: 1.8; }
   display: inline-flex; gap: 6px; align-items: center; min-height: 44px; padding: 10px 16px; border-radius: 999px;
   background: var(--text); color: var(--night); font-size: 14px; font-weight: 600; box-shadow: 0 6px 20px rgba(0,0,0,.3);
 }
-.version-badge span { opacity: .65; font-weight: 400; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 900px) {

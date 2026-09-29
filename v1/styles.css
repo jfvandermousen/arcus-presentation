@@ -385,4 +385,3 @@ body.nav-open { overflow: hidden; }
   box-shadow: 0 6px 20px rgba(0,0,0,.18);
 }
 .version-badge:hover { background: var(--navy); color: var(--white); }
-.version-badge span { opacity: .7; font-weight: 400; }

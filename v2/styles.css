@@ -228,7 +228,6 @@ body.menu-open { overflow: hidden; }
   display: inline-flex; gap: 6px; align-items: center; min-height: 44px; padding: 10px 16px; border-radius: 999px;
   background: var(--ink); color: #fff; font-size: 14px; font-weight: 500; box-shadow: 0 6px 20px rgba(0,0,0,.18);
 }
-.version-badge span { opacity: .7; font-weight: 400; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 900px) {
