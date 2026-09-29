@@ -1,14 +1,14 @@
 /* =========================================================
    Arcus Partners - preview statique
-   Couleurs issues de la charte (concept 2)
+   Couleurs issues de la charte (palette definitive, v4)
    ========================================================= */
 
 :root {
   /* Couleurs */
-  --navy: #0E3B66;
-  --navy-dark: #0A2A4A;
-  --sage: #5F6A55;        /* sauge assombri (retour client), lisible sur blanc */
-  --sage-light: #9AA290;
+  --navy: #323932;
+  --navy-dark: #232823;
+  --sage: #76846F;
+  --sage-light: #B2B8AE;
   --charcoal: #3E4750;
   --ink: #13223A;
   --grey: #5B6268;
@@ -16,10 +16,10 @@
   --off-white: #F4F4F2;
   --white: #FFFFFF;
   --placeholder: #D9DBD8;
-  --on-navy: #C9D3DE;
+  --on-navy: #CFCFCF;
 
   /* Typo */
-  --font: "Hanken Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font: "Arimo", system-ui, -apple-system, "Segoe UI", sans-serif;
 
   /* Espacements */
   --gutter: clamp(20px, 6.5vw, 96px);

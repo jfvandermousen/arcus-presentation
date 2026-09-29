@@ -1,15 +1,15 @@
 /* =========================================================
    Arcus Partners - Piste 3 · Immersive
-   Inspiration Apple : fond sombre indigo, l'arche comme motif, sauge en accent
-   Palette des concepts 5/6 de la charte
+   Inspiration Apple : fond sombre, l'arche comme motif, sauge en accent
+   Couleurs issues de la charte (palette definitive, v4)
    ========================================================= */
 
 :root {
-  --night: #12113A;
-  --night-2: #1B1A4D;
-  --indigo: #2D2A5E;
-  --sage: #8FA37F;       /* sauge éclairci : lisible sur fond sombre */
-  --sage-deep: #6B7F5E;
+  --night: #323932;
+  --night-2: #434443;
+  --indigo: #4B5859;
+  --sage: #9AA692;       /* sauge éclairci : lisible sur fond sombre */
+  --sage-deep: #76846F;
   --text: #F2F2F5;
   --text-muted: #B7B8CC;
   --light: #F1F3F0;
@@ -18,7 +18,7 @@
   --line-dark: rgba(255, 255, 255, .12);
   --line-light: #D9DCD6;
 
-  --font: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font: "Arimo", system-ui, -apple-system, "Segoe UI", sans-serif;
   --gutter: clamp(20px, 5vw, 80px);
   --max: 1320px;
   --section-y: clamp(80px, 11vw, 160px);

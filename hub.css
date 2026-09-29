@@ -4,15 +4,15 @@
   --card: #FFFFFF;
   --ink: #13223A;
   --muted: #5B6268;
-  --navy: #0E3B66;
-  --sage: #5F6A55;
+  --navy: #323932;
+  --sage: #76846F;
   --line: #E0E1DD;
   --gutter: clamp(20px, 5vw, 64px);
 }
 *, *::before, *::after { box-sizing: border-box; }
 body {
   margin: 0; background: var(--bg); color: var(--ink);
-  font-family: "Hanken Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-family: "Arimo", system-ui, -apple-system, "Segoe UI", sans-serif;
   font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased;
 }
 h1, h2, p { margin: 0; }
