@@ -1,14 +1,15 @@
 # Arcus Partners · Pistes de design
 
-Présentation client : 3 maquettes statiques (HTML / CSS / JS, sans dépendance).
+Présentation client : 4 maquettes statiques (HTML / CSS / JS, sans dépendance).
 
 ```
-index.html      → page d'accueil avec les 3 tuiles
+index.html      → page d'accueil avec les 4 tuiles
 hub.css
 thumbs/         → aperçus des tuiles
 v1/             → Piste 1 · Institutionnelle
 v2/             → Piste 2 · Éditoriale
 v3/             → Piste 3 · Immersive
+v4/             → Piste 4 · Éditoriale (Arimo, sans le serif de titrage)
 ```
 
 ## Voir en local
