@@ -1,12 +1,12 @@
 /* Page de présentation des 3 pistes */
 :root {
-  --bg: #F4F4F2;
+  --bg: #DDE1E1;
   --card: #FFFFFF;
-  --ink: #13223A;
-  --muted: #5B6268;
-  --navy: #323932;
-  --sage: #76846F;
-  --line: #E0E1DD;
+  --ink: #333932;
+  --muted: #4E5759;
+  --navy: #333932;
+  --sage: #798270;
+  --line: #DBD9D0;
   --gutter: clamp(20px, 5vw, 64px);
 }
 *, *::before, *::after { box-sizing: border-box; }
@@ -30,7 +30,7 @@ a { color: inherit; text-decoration: none; }
 .intro { padding-block: clamp(56px, 8vw, 104px) clamp(40px, 5vw, 64px); max-width: 760px; }
 .eyebrow { font-size: 13px; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--sage); }
 .intro h1 { margin-top: 16px; font-size: clamp(40px, 5.6vw, 72px); line-height: 1.02; font-weight: 400; letter-spacing: -.025em; color: var(--navy); }
-.lead { margin-top: 24px; font-size: clamp(16px, 1.3vw, 19px); color: #3E4750; }
+.lead { margin-top: 24px; font-size: clamp(16px, 1.3vw, 19px); color: var(--muted); }
 
 .tiles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
 .tile {
@@ -38,14 +38,14 @@ a { color: inherit; text-decoration: none; }
   border: 1px solid var(--line); overflow: hidden;
   transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease;
 }
-.tile:hover { transform: translateY(-4px); box-shadow: 0 18px 40px rgba(19, 34, 58, .12); border-color: transparent; }
-.tile-thumb { aspect-ratio: 16 / 10; overflow: hidden; background: #E6E7E3; border-bottom: 1px solid var(--line); }
+.tile:hover { transform: translateY(-4px); box-shadow: 0 18px 40px rgba(51, 57, 50, .14); border-color: transparent; }
+.tile-thumb { aspect-ratio: 16 / 10; overflow: hidden; background: var(--line); border-bottom: 1px solid var(--line); }
 .tile-thumb img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; transition: transform .6s ease; }
 .tile:hover .tile-thumb img { transform: scale(1.03); }
 .tile-body { flex-grow: 1; display: flex; flex-direction: column; gap: 14px; padding: 28px; }
 .tile-num { font-size: 13px; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; color: var(--sage); }
 .tile h2 { font-size: 30px; font-weight: 400; letter-spacing: -.01em; color: var(--navy); line-height: 1.1; }
-.tile-body > p:not(.tile-num) { color: #3E4750; }
+.tile-body > p:not(.tile-num) { color: var(--muted); }
 .swatches { display: flex; gap: 8px; }
 .swatches li { width: 26px; height: 26px; border-radius: 50%; background: var(--c); box-shadow: inset 0 0 0 1px rgba(0,0,0,.1); }
 .tile-cta { margin-top: auto; padding-top: 8px; font-weight: 600; color: var(--navy); display: inline-flex; gap: 8px; }
@@ -54,7 +54,7 @@ a { color: inherit; text-decoration: none; }
 
 .notes { margin-top: clamp(56px, 7vw, 88px); padding: 32px; background: var(--card); border: 1px solid var(--line); max-width: 860px; }
 .notes h2 { font-size: 18px; font-weight: 600; margin-bottom: 12px; }
-.notes li { position: relative; padding-left: 20px; color: #3E4750; }
+.notes li { position: relative; padding-left: 20px; color: var(--muted); }
 .notes li + li { margin-top: 6px; }
 .notes li::before { content: "·"; position: absolute; left: 0; color: var(--sage); }
 
